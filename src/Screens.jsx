@@ -19,7 +19,7 @@ export const possibleTileContents = [
 export function StartScreen({ start }) {
   return (
     <div className="justify-center content-center flex">
-      <div className="justify-center text-center h-96 w-[80%] pt-20 mt-20 rounded-lg bg-[#FBF3F8]">
+      <div className="justify-center text-center h-96 w-80 pt-20 mt-20 rounded-lg bg-[#FBF3F8]">
         <h1 className="text-3xl font-bold text-[#DA5597]">Memory</h1>
         <p className="text-[#DA5597] mt-10">
           Flip over tiles looking for pairs
@@ -118,7 +118,7 @@ export function PlayScreen({ end }) {
 
   return (
     <>
-     <div className="justify-center content-center flex">
+     <div className="justify-center flex">
         <div className=" mt-16 text-center">
        <p className="mb-10"> <span className="text-[#7776E7] font-semibold">Tries</span> <span className="bg-[#C9D2FB] px-3 py-0.5 text-[#7776E7] rounded-md font-semibold">{tryCount}</span></p>
       <div className="justify-center bg-[#EFF2FE] w-80 p-3.5 pr-6 rounded-lg ">
