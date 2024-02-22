@@ -121,7 +121,7 @@ export function PlayScreen({ end }) {
      <div className="justify-center content-center flex">
         <div className=" mt-16 text-center">
        <p className="mb-10"> <span className="text-[#7776E7] font-semibold">Tries</span> <span className="bg-[#C9D2FB] px-3 py-0.5 text-[#7776E7] rounded-md font-semibold">{tryCount}</span></p>
-      <div className="bg-[#EFF2FE] w-80 p-3.5 pr-6 rounded-lg ">
+      <div className="justify-center bg-[#EFF2FE] w-80 p-3.5 pr-6 rounded-lg ">
         <div className="grid grid-cols-4 gap-5 grid-rows-4">
           {getTiles(16).map((tile, i) => (
             <Tile  key={i} flip={() => flip(i)} {...tile} />
